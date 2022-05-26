@@ -17,6 +17,6 @@ const mediaSchema = mongoose.Schema({
 
 });
 
-const postMediaMessage = mongoose.model('postMediaMessage', mediaSchema);
+const postMediaMessage = mongoose.model('postMediaMessages', mediaSchema);
 
 export default postMediaMessage;

@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 
 //Importing routes!!
-import postRoutes from './routes/posts.js'
+import postRoutes from './routes/postRoutes.js'
 
 const app = express();
 
